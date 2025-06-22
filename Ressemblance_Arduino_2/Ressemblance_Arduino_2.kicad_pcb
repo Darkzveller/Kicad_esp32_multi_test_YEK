@@ -5385,15 +5385,15 @@
 			(uuid "09df51c9-ed48-49bc-a324-8dbf47685fb2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libKicad/ESP32-DEVKITC-32D.step"
+		(model "${KIPRJMOD}/lib_esp32/ESP32-DEVKITC-32D.step"
 			(offset
-				(xyz 0 -3 8)
+				(xyz 0.5 -3 5.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -14425,6 +14425,154 @@
 			(at 197.5 39.340534 0)
 			(layer "User.1")
 			(uuid "b1d70166-7253-48e7-bb37-dd10865ea2c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Eco1.User")
+		(uuid "4004732d-8708-4845-93e5-7e5e683b53ee")
+		(pts
+			(xy 159 55) (xy 159 124)
+		)
+		(height -9)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "69,0000 mm"
+			(at 148.85 89.5 90)
+			(layer "Eco1.User")
+			(uuid "4004732d-8708-4845-93e5-7e5e683b53ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Eco1.User")
+		(uuid "80e6d5b2-34dd-46ac-af45-77fb38e8f4e9")
+		(pts
+			(xy 159 124) (xy 237 124)
+		)
+		(height 12.5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "78,0000 mm"
+			(at 198 135.35 0)
+			(layer "Eco1.User")
+			(uuid "80e6d5b2-34dd-46ac-af45-77fb38e8f4e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Eco1.User")
+		(uuid "bcd211aa-0e18-423b-89cd-11623d0b847a")
+		(pts
+			(xy 237 124) (xy 237 55)
+		)
+		(height 14)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "69,0000 mm"
+			(at 249.85 89.5 90)
+			(layer "Eco1.User")
+			(uuid "bcd211aa-0e18-423b-89cd-11623d0b847a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Eco1.User")
+		(uuid "e0167b89-f13e-4ace-a9aa-ca2eb0d392a1")
+		(pts
+			(xy 159 55) (xy 237 55)
+		)
+		(height -10)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "78,0000 mm"
+			(at 198 43.85 0)
+			(layer "Eco1.User")
+			(uuid "e0167b89-f13e-4ace-a9aa-ca2eb0d392a1")
 			(effects
 				(font
 					(size 1 1)

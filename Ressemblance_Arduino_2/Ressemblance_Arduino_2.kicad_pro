@@ -506,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Ressemblance_Arduino_2.step",
       "svg": "",
       "vrml": ""
     },
